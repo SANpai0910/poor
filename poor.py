@@ -233,4 +233,4 @@ class DrawGameBot(discord.Client):
 
 if __name__ == '__main__':
     token = os.getenv('Token')
-    DrawGameBot().run('OTY5ODI0NDI3NTA2Mjc0MzU0.YmzBYQ.Q2kqtW4ICJAHtqPcuNbyK5MA6ps')
+    DrawGameBot().run(token)
